@@ -10,14 +10,15 @@
   main *, .site-header * { min-width: 0; }
   main :is(h1,h2,h3,h4,p,a,b,strong,span,li,blockquote) { overflow-wrap: anywhere; }
   main :is(h1,h2,h3) { hyphens: auto; }
-  body main h1 { font-size: clamp(30px, 8.5vw, 40px); line-height: 1.12; }
-  body main h2 { font-size: clamp(25px, 7vw, 32px); line-height: 1.18; }
+  body main h1 { font-size: clamp(30px, 8.5vw, 40px) !important; line-height: 1.12 !important; }
+  body main h2 { font-size: clamp(25px, 7vw, 32px) !important; line-height: 1.18 !important; }
   body main h3 { line-height: 1.25; }
   .hero-symbol .node strong { white-space: nowrap; overflow-wrap: normal; }
   main :is(img,video,svg,canvas) { max-width: 100%; }
   main section { scroll-margin-top: 82px; }
   main :is(.hero,.about-hero,.policy-hero):not(:has(.hero-media)) { height: auto; min-height: 0; padding-top: 36px; padding-bottom: 36px; overflow: visible; }
-  .site-header { height: auto; min-height: 64px; padding: 8px 16px; gap: 8px; flex-wrap: wrap; }
+  .site-header { height: auto; min-height: 64px; padding: 8px 16px; gap: 8px; flex-wrap: wrap; background: #d3ccc2; }
+  .fagup-page .accountability { gap: 24px; }
   .site-header .brand { flex: 1; }
   .site-header .brand span { white-space: normal; overflow-wrap: anywhere; }
   .site-header > nav, .site-header > .engage { display: none; }
