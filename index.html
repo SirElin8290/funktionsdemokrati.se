@@ -25,32 +25,34 @@ footer{max-width:var(--max);margin:auto;padding:28px 24px 50px;color:var(--muted
 @media(max-width:760px){.nav{align-items:flex-start;padding-top:18px;padding-bottom:18px;flex-direction:column}.nav nav{gap:12px 18px}section{padding:54px 24px}.intro{padding-top:70px}.clocks,.split{grid-template-columns:1fr}.clock+.clock{border-left:0;border-top:1px solid var(--line)}.grid3{grid-template-columns:1fr}.ratio{grid-template-columns:1fr}.ratio div+div{border-left:0;border-top:1px solid var(--line)}.flow div,.case{grid-template-columns:1fr;gap:6px}.method{grid-template-columns:1fr}.method div{border-right:0;border-bottom:1px solid var(--line)}.method div:last-child{border-bottom:0}}
 </style>
 <link rel="icon" href="./fd-symbol.svg" type="image/svg+xml">
-<link rel="stylesheet" href="./fd-theme.css">
+<link rel="stylesheet" href="./fd-theme.css?v=varmare">
 </head>
 <body class="fd-page fd-home">
 <a class="fd-skip" href="#huvudinnehall">Hoppa till innehållet</a>
 <header class="fd-header">
   <div class="fd-header-inner">
     <a class="fd-brand" href="./index.html"><img src="./fd-symbol.svg" width="34" height="34" alt="">Funktionsdemokrati</a>
-    <nav class="fd-nav" aria-label="Huvudnavigation"><a href="./index.html" aria-current="page">Start</a><a href="./overgang.html">Från i dag till modellen</a><a href="./statsskick.html">Modellen</a><a href="./medborgarhuset.html">Medborgarhuset</a><a href="./analyser.html">Analyser</a><a href="./kritik.html">Kritik och svar</a><a href="./hitta.html">Alla sidor</a></nav>
+    <nav class="fd-nav" aria-label="Huvudnavigation"><a href="./index.html" aria-current="page">Start</a><a href="./overgang.html">Vad kan prövas?</a><a href="./statsskick.html">Modellen</a><a href="./medborgarhuset.html">Medborgarhuset</a><a href="./analyser.html">Analyser</a><a href="./kritik.html">Kritik och svar</a><a href="./hitta.html">Alla sidor</a></nav>
   </div>
 </header>
 <main id="huvudinnehall" tabindex="-1" class="fd-main"><div id="top"></div>
 <section class="intro">
 <p class="kicker">Ett idéprojekt om hur Sverige styrs</p>
 <h1>Balans är något vi hela tiden måste sträva efter.</h1>
-<p class="lead">Funktionsdemokrati börjar med att fråga om det vi gör fungerar. Om en lösning fungerar fortsätter vi. Om den fungerar dåligt undersöker vi varför, justerar eller avslutar den och följer upp vad som händer.</p>
-<p>Väljarna ska kunna byta politisk riktning. Samtidigt behöver samhällsfunktioner som skola, vård och rättsstat kunna följas upp över flera mandatperioder.</p>
-<p class="fd-actions"><a class="fd-button" href="./overgang.html">Följ vägen från dagens Sverige</a><a href="./hitta.html">Se alla sidor</a></p>
+<p class="lead">Funktionsdemokrati är ett förslag för hur Sverige kan följa upp reformer, justera det som fungerar dåligt och göra det tydligt vem som ansvarar.</p>
+<p>I vardagen skulle du kunna ringa en fast kontakt på Medborgarhuset när du behöver hjälp från flera håll.</p>
+<p class="fd-actions">
+  <a class="fd-button" href="./statsskick.html#karta">Se hur Sverige skulle styras</a>
+  <a class="fd-button fd-button-outline" href="./medborgarhuset.html">Så skulle Medborgarhuset hjälpa dig</a>
+</p>
 </section>
 <section class="fd-start-paths" aria-labelledby="borja">
-<h2 id="borja">Välj var du vill börja</h2>
-<div class="fd-directory"><article class="fd-panel"><h3><a href="./medborgarhuset.html">Medborgarhuset</a></h3><p>En fast, lokal kontaktperson hjälper dig när flera stöd behöver samordnas.</p></article>
-<article class="fd-panel"><h3><a href="./overgang.html">Från dagens Sverige till modellen</a></h3><p>Följ ett skolexempel från dagens ansvar till ett första försök och en möjlig långsiktig förändring.</p></article>
-<article class="fd-panel"><h3><a href="./statsskick.html#karta">Karta över statsskicket</a></h3><p>Se hur regeringen bildas, hur de två husen ger råd och vem som fattar besluten.</p></article>
-<article class="fd-panel"><h3><a href="./kritik.html">Kritik och svar</a></h3><p>Vem kan stoppa en reform? Hur granskas de som får ansvar över flera mandatperioder?</p></article>
-<article class="fd-panel"><h3><a href="./analyser.html">Analyser och utredningar</a></h3><p>Läs om skola, polisnärvaro, kärnkraft och vilka antaganden slutsatserna bygger på.</p></article>
-</div>
+<h2 id="borja">Fördjupa dig</h2>
+<ul class="fd-home-links">
+  <li><a href="./overgang.html">Vad kan prövas redan i dag?</a><span>Följ ett skolexempel från dagens system till ett möjligt första försök.</span></li>
+  <li><a href="./analyser.html">Analyser och utredningar</a><span>Se underlagen om bland annat skola, polisnärvaro och kärnkraft.</span></li>
+  <li><a href="./kritik.html">Kritik och svar</a><span>Se invändningarna om makt, ansvar och granskning.</span></li>
+</ul>
 </section>
 <section class="fd-feature" aria-labelledby="fordjupning">
 <p class="fd-eyebrow">Arbetskraft och återvandring</p>
@@ -70,7 +72,7 @@ footer{max-width:var(--max);margin:auto;padding:28px 24px 50px;color:var(--muted
 <p class="big-question">Kan demokratin byta riktning utan att långsiktiga samhällsfunktioner tvingas börja om från noll?</p>
 </section>
 
-<section id="modellen"><h2>Två hus för långsiktighet</h2><p>Välfärdshuset följer bland annat skola och vård. Marknadshuset följer bland annat företagande, arbetsmarknad och ekonomisk kapacitet. <a href="./statsskick.html">Läs hur styrmodellen fungerar</a>.</p></section><section id="medborgarhuset" class="fd-feature"><h2>En kontakt när du behöver hjälp</h2><p>Medborgarhuset är länken mellan medborgaren och staten. Du ringer din lokala kontaktperson. Teamet tar de kontakter som behövs och ger dig en tydlig plan att följa.</p><a class="fd-button" href="./medborgarhuset.html">Så fungerar Medborgarhuset</a></section>
+<section id="modellen"><h2>Två hus för långsiktighet</h2><p>Välfärdshuset följer bland annat skola och vård. Marknadshuset följer bland annat företagande, arbetsmarknad och ekonomisk kapacitet. <a href="./statsskick.html">Läs hur styrmodellen fungerar</a>.</p></section><span id="medborgarhuset" hidden></span>
 <section id="tillampningar">
 <p class="kicker">04 — Varför lång tid spelar roll</p>
 <h2>Modellen måste kunna visas i verkliga problem, inte bara i ett organisationsschema.</h2>
