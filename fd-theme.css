@@ -65,3 +65,16 @@ body { background: var(--fd-bg); color: var(--fd-ink); }
   .fd-directory { grid-template-columns: minmax(0, 1fr); }
   .fd-header .fd-nav a { font-size: 13px; }
 }
+
+.fd-main > .fd-map { background: #fff; }
+.fd-map-head, .fd-map-output { padding: 14px 18px; background: var(--fd-soft); border-radius: 8px; }
+.fd-map-head p, .fd-map-houses p { margin: 4px 0 0; }
+.fd-map-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin: 24px 0; }
+.fd-map-chain { padding-left: 1.5em; }
+.fd-map-chain li { padding-left: .25em; }
+.fd-map-chain li::marker { color: var(--fd-accent); font-weight: 750; }
+.fd-map-houses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.fd-map-houses > div { padding: 12px; border: 1px solid var(--fd-line); border-radius: 6px; }
+.fd-map-output { color: var(--fd-accent); font-weight: 750; }
+@media (max-width: 760px) { .fd-map-grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 390px) { .fd-map-houses { grid-template-columns: minmax(0, 1fr); } }
